@@ -7,6 +7,11 @@ import java.util.Collections;
  *
  * @author Igor Henrique da Silva
  */
+ 
+ //Commentaries were set up both in English and Portuguese.
+ 
+ //Construção da classe "Deck"(baralho).
+ //Creating the class "Deck".
 public class Deck {
     public static ArrayList<Card> cards = new ArrayList<>(52);
     
@@ -19,6 +24,8 @@ public class Deck {
         return cards;
     }
     
+    //Criando o método "shuffleCards" do tipo ArrayList para embaralhar as cartas.
+    //Creating the method "shuffleCards" from an ArrayList to shuffle cards.
     public ArrayList shuffleCards() {
         Collections.shuffle(cards);
         return cards;
