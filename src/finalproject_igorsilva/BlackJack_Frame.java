@@ -9,17 +9,27 @@ import javax.swing.JTextField;
  *
  * @author Igor Henrique da Silva
  */
+ 
+ //Commentaries were set up both in English and Portuguese.
+ 
+ //Criação da classe "BlackJack_Frame" que cria uma tela para a ambientação do jogo.
+ //Creating the class "BlackJack_Frame" that generates a frame for the game.
 public class BlackJack_Frame extends javax.swing.JFrame{
     BlackJack bj = new BlackJack (); 
     double bet = 0.0;
     double wallet = 1000.0; //Total money of the user
     
+    //Método criado para abertura e fechamento da tela do jogo.
+    //This method were created to open and close the game's frame.
     public BlackJack_Frame() {
         initComponents();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true); 
         
     }
+    
+    //Abaixo estão as ações e atribuições dos componentes da tela.
+    //Below there are the actions and attributes of the frame components.
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
